@@ -8,8 +8,10 @@
 
     -   메인 (PC): main.html
     -   리스트 (PC): list.html
-    -   디테일 (PC): detail.css
+    -   디테일 (PC): detail.html
 
 -   기술
-    -   HTML (추후 React 변환 예정)
-    -   CSS (추후 Sass 변환 예정)
+    -   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=HTML5&amp;logoColor=white">
+    -   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=CSS3&amp;logoColor=white">
+    -   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=Javascript&amp;logoColor=black">
+    -   <img src="https://img.shields.io/badge/Github-181717?style=flat-square&amp;logo=Github&amp;logoColor=white">
