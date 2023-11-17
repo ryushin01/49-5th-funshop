@@ -1,13 +1,17 @@
 @charset "UTF-8";
 
-.Entire-area-container {
+.entire-area-container {
   width: 100%;
   height: 100vh;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .main-header {
+  position: sticky;
+  z-index: 2;
+  top: 0;
   width: 100%;
-  background-color: lightgray;
 }
 
 .header-wrap {
@@ -23,7 +27,7 @@
 }
 
 .header-logo-name {
-  padding-right: 40px;
+  margin-right: 40px;
   font-size: 20px;
 }
 
@@ -51,10 +55,6 @@
 .header-item-list .item-list-home {
   color: #fff;
   font-weight: 800;
-}
-
-.right-wrap {
-  background-color: #008000;
 }
 
 .right-wrap-list {
@@ -101,11 +101,15 @@
   list-style: none;
   gap: 20px;
   height: 40px;
-
-  background-color: #90ee90;
 }
 
 .nav-item-list a {
+  padding: 5px 20px;
   text-decoration-line: none;
   color: #000;
+}
+
+.nav-item-list :hover {
+  background-color: #e5e5e5;
+  border-radius: 20px;
 }
