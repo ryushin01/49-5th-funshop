@@ -17,6 +17,12 @@ img {
   vertical-align: top;
 }
 
+/* 링크 밑줄제거를 위하여 작성 */
 a {
   text-decoration-line: none;
+}
+
+/* 리스트 스타일 불릿표시를 없애기 위하여 작성 */
+li {
+  list-style: none;
 }
