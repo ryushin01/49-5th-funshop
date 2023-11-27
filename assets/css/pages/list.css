@@ -12,7 +12,6 @@
   margin: 0 auto;
   width: 1100px;
   height: 100%;
-  background-color: lightgray;
 }
 
 .list-title-section {
@@ -44,6 +43,72 @@
   flex-direction: row;
   display: flex;
   width: 100%;
-  height: 100%;
+  padding-bottom: 120px;
   gap: 90px;
+}
+
+.list-content-aside {
+  width: 210px;
+}
+
+.aside-top-text {
+  margin-bottom: 14px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.aside-center-text {
+  font-size: 12px;
+  color: #808080;
+}
+
+.aside-wide-text {
+  display: block;
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+
+.list-item-area {
+  width: 100%;
+  gap: 50px;
+  cursor: pointer;
+}
+
+.list-item-box-area {
+  width: 260px;
+  height: 100%;
+  background-color: gray;
+  /* gap: 50px; */
+}
+
+.list-item-content-area {
+  width: 260px;
+}
+
+.list-item-image-section {
+  object-fit: cover;
+}
+
+.list-item-text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 5px 40px 5px;
+  font-size: 0;
+}
+
+.list-item-text-section h2 a {
+  color: #000;
+  font-size: 12px;
+}
+
+.list-item-text-section h3 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.list-item-text-section h4 {
+  font-size: 15px;
 }
