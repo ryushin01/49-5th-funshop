@@ -2,7 +2,7 @@
 
 .list-content-container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .list-content-section {
@@ -70,21 +70,13 @@
   color: #000;
 }
 
-.list-item-area {
+.list-item-swiper-section {
   width: 100%;
-  gap: 50px;
+  overflow: hidden;
+}
+
+.swiper-slide {
   cursor: pointer;
-}
-
-.list-item-box-area {
-  width: 260px;
-  height: 100%;
-  background-color: gray;
-  /* gap: 50px; */
-}
-
-.list-item-content-area {
-  width: 260px;
 }
 
 .list-item-image-section {
@@ -111,4 +103,18 @@
 
 .list-item-text-section h4 {
   font-size: 15px;
+}
+
+.list-item-bottom-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.bottom-content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
+  gap: 15px;
+  padding: 0 20px;
 }
