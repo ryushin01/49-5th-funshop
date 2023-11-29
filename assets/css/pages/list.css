@@ -19,10 +19,55 @@
   align-items: center;
   flex-direction: row;
   padding: 40px 0 16px 0;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-bottom: 3px solid #000;
   width: 100%;
   gap: 10px;
+}
+
+.list-chip-section {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+}
+
+.list-chip-area {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.list-chip-btn {
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  border-color: #e5e5e5;
+}
+
+.list-chip-target {
+  display: flex;
+  justify-content: center;
+  padding: 8px 18px;
+  height: 100%;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.list-first-banner-section {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.list-first-banner-target {
+  display: block;
+  height: 100%;
+}
+
+#top-slide-banner .swiper-wrapper .swiper-slide {
+  height: auto;
 }
 
 .list-top-main-title {
@@ -64,6 +109,7 @@
 
 .aside-wide-text {
   display: block;
+  height: 100%;
   margin-top: 40px;
   font-size: 15px;
   font-weight: bold;
@@ -75,12 +121,22 @@
   overflow: hidden;
 }
 
+.list-item-swiper-section a {
+  display: block;
+  height: 100%;
+}
+
 .swiper-slide {
   cursor: pointer;
 }
 
 .list-item-image-section {
   object-fit: cover;
+}
+
+.list-item-image-section a {
+  display: block;
+  height: 100%;
 }
 
 .list-item-text-section {
@@ -115,6 +171,5 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
   height: auto;
-  gap: 15px;
-  padding: 0 20px;
+  gap: 30px;
 }
