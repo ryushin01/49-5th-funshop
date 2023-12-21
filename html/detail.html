@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../assets/images/icons_8.ico" rel="icon" type="image/x-icon" />
     <title>즐거움의 시작, FUNSHOP</title>
     <!-- 
           [Tip] CSS 파일의 import 순서
@@ -14,6 +15,12 @@
     <link href="../assets/css/pages/header.css" rel="stylesheet" />
     <link href="../assets/css/pages/detail.css" rel="stylesheet" />
     <link href="../assets/css/pages/footer.css" rel="stylesheet" />
+
+    <!-- swiper CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="detail-entire-area-container">
@@ -176,30 +183,135 @@
           </ul>
         </div>
         <div class="detail-inner-section">
-          <div class="detail-inner-content-left"></div>
+          <div class="detail-inner-content-left">
+            <div class="swiper second-detail-swiper">
+              <div div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_1.jpg"
+                    alt="디테일1번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_2.jpg"
+                    alt="디테일2번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_3.jpg"
+                    alt="디테일3번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_4.jpg"
+                    alt="디테일4번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_4.jpg"
+                    alt="디테일4번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_4.jpg"
+                    alt="디테일4번사진"
+                  />
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper first-detail-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_1.jpg"
+                    alt="디테일1번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_2.jpg"
+                    alt="디테일2번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_3.jpg"
+                    alt="디테일3번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_4.jpg"
+                    alt="디테일4번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_4.jpg"
+                    alt="디테일4번사진"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="../assets/images/detail_mock_data_4.jpg"
+                    alt="디테일4번사진"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="detail-inner-content-right">
             <div class="detail-item-info-section">
               <div class="item-info-section">
-                <p class="detail-item-info-title">[금주신상!] 화이트 볼캡모자</p>
-                <p class="detail-item-info-subtitle">대두여 저리가라</p>
+                <span class="detail-item-info-title">
+                  [금주신상!] 화이트 볼캡모자
+                </span>
+                <span class="detail-item-info-subtitle">대두여 저리가라</span>
               </div>
               <div class="star-wrap">
                 <div class="star-area">
                   <ul>
                     <li>
-                      <img class="star-image" src="../assets/images/star_image_1.svg" alt="별점이미지" />
+                      <img
+                        class="star-image"
+                        src="../assets/images/star_image_1.svg"
+                        alt="별점이미지"
+                      />
                     </li>
                     <li>
-                      <img class="star-image" src="../assets/images/star_image_1.svg" alt="별점이미지" />
+                      <img
+                        class="star-image"
+                        src="../assets/images/star_image_1.svg"
+                        alt="별점이미지"
+                      />
                     </li>
                     <li>
-                      <img class="star-image" src="../assets/images/star_image_1.svg" alt="별점이미지" />
+                      <img
+                        class="star-image"
+                        src="../assets/images/star_image_1.svg"
+                        alt="별점이미지"
+                      />
                     </li>
                     <li>
-                      <img class="star-image" src="../assets/images/star_image_1.svg" alt="별점이미지" />
+                      <img
+                        class="star-image"
+                        src="../assets/images/star_image_1.svg"
+                        alt="별점이미지"
+                      />
                     </li>
                     <li>
-                      <img class="star-image" src="../assets/images/star_image_1.svg" alt="별점이미지" />
+                      <img
+                        class="star-image"
+                        src="../assets/images/star_image_1.svg"
+                        alt="별점이미지"
+                      />
                     </li>
                   </ul>
                   <span class="detail-total-score">0</span>
@@ -209,88 +321,100 @@
                 >
               </div>
               <div class="detail-total-amount">
-                <p class="detail-sale-area">
+                <div class="detail-sale-area">
                   <span class="sale-percent-amount">10%</span>
                   <span class="sale-amount">10,800원</span>
-                </p>
+                </div>
                 <span class="regular-price">12,000원</span>
               </div>
             </div>
             <hr />
             <table class="item-explain">
-            <tr>
-              <th>상품코드</th>
-              <td>000000</td>
-            </tr>
-            <tr>
-              <th class="explain-word-third">원 산 지</th>
-              <td>한국</td>
-            </tr>
-            <tr>
-              <th>판매국가</th>
-              <td>한국</td>
-            </tr>
-            <tr>
-              <th class="explain-word-two">배 송</th>
-              <td>업체배송 (배송비 3,000원)</td>
-            </tr>
-            <tr>
-              <th>추가혜택</th>
-              <td>
-                최대 6개월 무이자
-                <a class="item-free-card" href="javascript:void(0)">
-                  <span class="item-interest-free">무이자 카드 보기</span>
-                  <img src="../assets/images/back_arrow.png" alt="우측 화살표 이미지" />
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2" class="company-product">
-                <a href="javascript:void(0)">
-                  <img src="../assets/images/btn_allitem_this_shop_1.gif" alt="업체상품 모두보기" />
-                </a>
-              </td>
-            </tr>
+              <tr>
+                <th>상품코드</th>
+                <td>000000</td>
+              </tr>
+              <tr>
+                <th class="explain-word-third">원 산 지</th>
+                <td>한국</td>
+              </tr>
+              <tr>
+                <th>판매국가</th>
+                <td>한국</td>
+              </tr>
+              <tr>
+                <th class="explain-word-two">배 송</th>
+                <td>업체배송 (배송비 3,000원)</td>
+              </tr>
+              <tr>
+                <th>추가혜택</th>
+                <td>
+                  최대 6개월 무이자
+                  <a class="item-free-card" href="javascript:void(0)">
+                    <span class="item-interest-free">무이자 카드 보기</span>
+                    <img
+                      src="../assets/images/back_arrow.png"
+                      alt="우측 화살표 이미지"
+                    />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" class="company-product">
+                  <a href="javascript:void(0)">
+                    <img
+                      src="../assets/images/btn_allitem_this_shop_1.gif"
+                      alt="업체상품 모두보기"
+                    />
+                  </a>
+                </td>
+              </tr>
             </table>
             <hr />
             <div class="event-wrap">
-              <p class="reservation-deadline">
+              <span class="reservation-deadline">
                 <strong>[예약마감일 안내]</strong>
-              </p>
-              <p class="reservation-deadline-information">
-              해당 상품은 0월 0일 예약이 마감되오니, 주문 시 참고하여 주시기
-              바랍니다.
-              </p>
+              </span>
+              <span class="reservation-deadline-information">
+                해당 상품은 0월 0일 예약이 마감되오니, 주문 시 참고하여 주시기
+                바랍니다.
+              </span>
             </div>
             <div class="option-wrap">
               <form class="product-order">
                 <fieldset>
                   <div class="order-select">
-                    <p class="option-title">화이트 볼캡모자</p>
+                    <span class="option-title">화이트 볼캡모자</span>
                     <div class="option-btn-wrap">
                       <button class="minus-btn" type="button">-</button>
-                      <input type="text" value="1"></input>
+                      <span class="option-number">1</span>
                       <button class="plus-btn" type="button">+</button>
                     </div>
                     <div class="total-price-wrap">
-                      <p class="cost-regular-price">12,000</p>
-                      <P class="cost-sale">
+                      <span class="cost-regular-price">12,000</span>
+                      <span class="cost-sale">
                         <span class="const-sale-percent">10%</span>
                         <span>10,800원</span>
-                      </P>
+                      </span>
                     </div>
                   </div>
                   <div class="detail-reservation">
-                    <img src="../assets/images/exclamation-circle.svg" alt=""/>
+                    <img
+                      src="../assets/images/exclamation-circle.svg"
+                      alt="원형느낌표"
+                    />
                     <span>본 상품은 예약판매 상품입니다.</span>
                   </div>
                   <div class="detail-total-price">
-                    <p class="total-text">총 상품 금액</p>
-                    <p class="detail-total-sale-price">10,800 원</p>
+                    <span class="total-text">총 상품 금액</span>
+                    <span class="detail-total-sale-price">10,800 원</span>
                   </div>
                   <div class="tool-btn-wrap">
                     <button class="wish-btn" type="button">
-                      <img src="../assets/images/bookmark-heart.svg" alt="위시이미지"/>
+                      <img
+                        src="../assets/images/bookmark-heart.svg"
+                        alt="위시이미지"
+                      />
                       위시
                     </button>
                     <button class="basket-btn" type="button">장바구니</button>
@@ -321,20 +445,27 @@
             <div class="cont-info-title">
               <div class="detail-cont-info">
                 <p class="detail-cont-info-title-text">
-                  <img class src="../assets/images/backspace_img.svg" alt="상품타이틀안내이미지"/>
+                  <img
+                    class
+                    src="../assets/images/backspace_img.svg"
+                    alt="상품타이틀안내이미지"
+                  />
                   <strong>상품 정보</strong>
                 </p>
                 <div class="detail-center">
                   <div class="detail-product-image-area">
-                    <img src="../assets/images/detail_mock_data_1.jpg" alt="상품이미지"/>
+                    <img
+                      src="../assets/images/detail_mock_data_1.jpg"
+                      alt="상품이미지"
+                    />
                   </div>
                   <p>
-                    <br>
+                    <br />
                   </p>
                   <div class="product-description">
                     <p>이미지는 예시 이므로</p>
-                    <P><br/></P>
-                    <P>실제 상품과 다를 수 있습니다!</P>
+                    <p><br /></p>
+                    <p>실제 상품과 다를 수 있습니다!</p>
                   </div>
                 </div>
               </div>
@@ -429,5 +560,26 @@
         </div>
       </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".first-detail-swiper", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+
+      const swiper2 = new Swiper(".second-detail-swiper", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
   </body>
 </html>

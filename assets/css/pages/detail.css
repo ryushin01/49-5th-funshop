@@ -81,8 +81,21 @@
 
 .detail-inner-content-left {
   width: 500px;
-  margin-right: 100px;
-  background-color: #808080;
+  margin-right: 70px;
+}
+
+.first-detail-swiper {
+  width: 50%;
+  margin-top: 15px;
+}
+
+.first-detail-swiper .swiper-slide-thumb-active {
+  border: 1px solid #000;
+}
+
+.second-detail-swiper .swiper-button-next,
+.second-detail-swiper .swiper-button-prev {
+  color: #dcd9d9;
 }
 
 .detail-inner-content-right {
@@ -96,6 +109,7 @@
 }
 
 .detail-item-info-title {
+  display: inline-block;
   width: 495px;
   margin-bottom: 10px;
   font-size: 26px;
@@ -104,6 +118,7 @@
 }
 
 .detail-item-info-subtitle {
+  display: inline-block;
   margin-bottom: 20px;
   font-size: 18px;
 }
@@ -182,6 +197,7 @@
   padding: 5px 10px 5px 0;
   font-size: 14px;
   text-align: left;
+  position: relative;
 }
 
 .explain-word-third {
@@ -226,12 +242,14 @@
 }
 
 .reservation-deadline {
+  display: inline-block;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 15px;
 }
 
 .reservation-deadline-information {
+  display: inline-block;
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 0;
@@ -249,6 +267,7 @@
 }
 
 .option-title {
+  display: inline-block;
   line-height: 20px;
   width: 205px;
   font-size: 16px;
@@ -266,15 +285,12 @@
   background: #ffffff;
 }
 
-.option-btn-wrap input {
-  display: block;
-  width: 50px;
-  height: 25px;
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
+.option-number {
+  width: 70px;
+  border: 1px solid #e6e6e6;
   text-align: center;
-  color: #000;
-  font-weight: 500;
+  border-right: none;
+  border-left: none;
 }
 
 .plus-btn {
@@ -293,6 +309,7 @@
 }
 
 .cost-regular-price {
+  display: inline-block;
   font-size: 14px;
   color: #9d9d9d;
   margin-bottom: 5px;
@@ -300,6 +317,7 @@
 }
 
 .cost-sale {
+  display: inline-block;
   margin-left: 10px;
   font-size: 16px;
   font-weight: 600;
@@ -336,12 +354,14 @@
 }
 
 .total-text {
+  display: inline-block;
   color: #000;
   font-size: 20px;
   font-weight: 600;
 }
 
 .detail-total-sale-price {
+  display: inline-block;
   font-weight: 700;
   font-size: 21px;
   color: #000;
@@ -366,6 +386,7 @@
   background: #fff;
   color: #000;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .wish-btn img {
@@ -383,6 +404,7 @@
   color: #000;
   font-weight: 500;
   padding: 0 25px;
+  cursor: pointer;
 }
 
 .buy-now-btn {
@@ -393,6 +415,7 @@
   background: #000;
   color: #39fe94;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .product-tap {
@@ -400,6 +423,9 @@
   background: #fff;
   width: 100%;
   margin: 0 auto;
+  position: sticky;
+  top: 95px;
+  z-index: 5;
 }
 
 .product-tap-inner {
@@ -423,7 +449,6 @@
   font-weight: 600;
   color: #000;
   font-size: 20px;
-  /* border-bottom: 2px solid #000; */
 }
 
 .product-detail-tap {
